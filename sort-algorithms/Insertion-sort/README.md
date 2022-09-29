@@ -43,6 +43,7 @@ let sortFun = function(array) {
     }
     array[j+1] = current
   }
+  return array
 }
 ```
 ---
