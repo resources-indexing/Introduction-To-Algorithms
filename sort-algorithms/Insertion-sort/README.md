@@ -5,7 +5,7 @@
 
 
 ## JavaScript Employment
-#### My Employment
+#### My First Employmentation
 ```javascript
 let sortFun = function (array) {
   let first = array.shift()
@@ -31,6 +31,19 @@ let sortFun = function (array) {
   return greenArray
  }
 ```
+#### Better Emplement 
+```javascript 
+let sortFun = function(array) {
+  for(let i = 1; i<array.length ; i++) {
+    const current = array[i]
+    let j = i - 1 
+    while(j>=0 && array[j] > current ) {
+      array[j+1] = array[j]
+      j--
+    }
+    array[j+1] = current
+  }
+}
 ---
 
 back to 
