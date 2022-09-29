@@ -8,53 +8,28 @@
 #### My Employment
 ```javascript
 let sortFun = function (array) {
-
   let first = array.shift()
-
-        let greenArray = []
-
-        if (first != undefined) {
-
-          greenArray.push(first )
-
-        }
-
-        
-
-        array.forEach((value) => {
-
-          let insertAt = 0
-
-          for (
-
-            let greenIndex = greenArray.length - 1;
-
-            greenIndex >= 0;
-
-            greenIndex--
-
-          ) {
-
-            const greenItem = greenArray[greenIndex]
-
-            if (value > greenItem) {
-
-              insertAt = Number(greenIndex + 1)
-
-              greenIndex = -1
-
-            }
-
-          }
-
-          greenArray.splice(insertAt, 0, value)
-
-        })
-
-        return greenArray
-
+  let greenArray = []
+  if (first != undefined) {
+    greenArray.push(first )
+  }
+  array.forEach((value) => {
+    let insertAt = 0
+    for (
+      let greenIndex = greenArray.length - 1;
+      greenIndex >= 0;
+      greenIndex--
+    ) {
+      const greenItem = greenArray[greenIndex]
+      if (value > greenItem) {
+        insertAt = Number(greenIndex + 1)
+        greenIndex = -1
       }
-
+    }
+    greenArray.splice(insertAt, 0, value)
+  })
+  return greenArray
+ }
 ```
 ---
 
