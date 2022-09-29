@@ -6,5 +6,5 @@
 
 
 # back to 
-- [Sort Algorithms](https://github.com/resources-indexing/Introduction-To-Algorithms/tree/main/sort-algorithms/#sort-algorithms))
+- [Sort Algorithms](https://github.com/resources-indexing/Introduction-To-Algorithms#sort-algorithms)
 
