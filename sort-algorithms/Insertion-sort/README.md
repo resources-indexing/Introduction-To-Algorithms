@@ -1,6 +1,9 @@
 # Insertion Sort 
 ## YouTube Videos 
 - [moash Hamadani](https://youtu.be/nKzEJWbkPbQ)
+
+## solve with 
+JavaScript
 ```javascript
 let sortFun = function (array) {
         let greenArray = [array.shift()]
